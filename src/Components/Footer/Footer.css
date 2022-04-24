@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 4rem;
+    color: white;
+}
+
+.f-content > span {
+    font-size: 1.2rem;
+}
+
+.f-icons {
+    display: flex;
+    gap: 2rem;
+}
+
+.f-icons > * {
+    transition: all .5s ease;
+    border-radius: 20%;
+}
+
+.f-icons > *:hover {
+    cursor: pointer;
+    background: var(--gray);
+    border-radius: 20%;
+    
+}
+
+
+@media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(.5);
+    }
+  }
+  
